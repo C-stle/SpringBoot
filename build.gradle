@@ -26,6 +26,11 @@ dependencies {
 	implementation 'mysql:mysql-connector-java'
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0' 
+
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	// implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
+
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
